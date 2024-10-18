@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon Ball Z</title>
+    <link rel="icon" type="image/x-icon" href="icone.png"> 
+    <link rel="stylesheet" href="style.css"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="icone.png" alt="Logo do anime">
+        </div>
+    </header>
+
+    <section class="gallery">
+        <h2>Galeria de Personagens</h2>
+        <figure onclick="openModal('modal1')">
+            <img src="goku.png" alt="Goku">
+            <figcaption>Goku</figcaption>
+        </figure>
+        <figure onclick="openModal('modal2')">
+            <img src="vegeta.png" alt="Vegeta">
+            <figcaption>Vegeta</figcaption>
+        </figure>
+        <figure onclick="openModal('modal3')">
+            <img src="gohan.png" alt="Gohan">
+            <figcaption>Gohan</figcaption>
+        </figure>
+        <figure onclick="openModal('modal4')">
+            <img src="piccolo.png" alt="Piccolo">
+            <figcaption>Piccolo</figcaption>
+        </figure>
+        <figure onclick="openModal('modal5')">
+            <img src="trunks.png" alt="Trunks">
+            <figcaption>Trunks</figcaption>
+        </figure>
+        <figure onclick="openModal('modal6')">
+            <img src="frieza.png" alt="Frieza">
+            <figcaption>Frieza</figcaption>
+        </figure>
+    </section>
+    
+
+<main>
+<div id="modal1" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal1')">&times;</span>
+        <h2>Goku</h2>
+        <img src="goku.png" alt="Goku">
+        <p>O protagonista da série, um Saiyajin com um coração puro e uma busca constante por se tornar mais forte.</p>
+        <h3>Informações do personagem: </h3>
+        <p><strong>Origem:</strong> Saiyajin enviado à Terra, criado como humano após perder sua missão original.<br>
+            <strong>Personalidade:</strong> Otimista, inocente e sempre em busca de se tornar mais forte.<br>
+            <strong>Habilidades:</strong> Mestre em artes marciais, utiliza técnicas como Kamehameha.<br>
+            <strong>Transformações:</strong> Alcança várias formas poderosas, incluindo Super Saiyajin.<br>
+            <strong>Objetivo:</strong> Proteger a Terra e seus amigos de ameaças, enquanto busca desafios e o aperfeiçoamento.<br>
+            <strong>Rivalidade:</strong> Tem uma rivalidade amistosa com Vegeta, motivando ambos a se superarem.
+        </p>
+    </div>
+</div>
+<div id="modal2" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal2')">&times;</span>
+        <h2>Vegeta</h2>
+        <img src="vegeta.png" alt="Vegeta">
+        <p>O príncipe dos Saiyajins e rival de Goku, inicialmente arrogante e ambicioso, mas que se torna um aliado valioso.</p>
+        <h3>Informações do personagem:</h3>
+        <p><strong>Origem:</strong> Príncipe dos Saiyajins, criado para ser o guerreiro mais forte e honrar seu povo.<br>
+            <strong>Personalidade:</strong> Orgulhoso, competitivo e determinado a superar Goku.<br>
+            <strong>Habilidades:</strong> Grande lutador, utiliza técnicas como Galick Gun e suas formas de Super Saiyajin.<br>
+            <strong>Transformações:</strong> Evolui para várias formas de Super Saiyajin, buscando sempre se igualar ou superar Goku.<br>
+            <strong>Objetivo:</strong> Inicialmente motivado por poder, depois luta para proteger sua família e aliados.<br>
+            <strong>Rivalidade:</strong> Rivalidade intensa com Goku, o que o motiva a sempre se tornar mais forte.
+        </p>
+    </div>
+</div>
+
+<div id="modal3" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal3')">&times;</span>
+        <h2>Gohan</h2>
+        <img src="gohan.png" alt="Gohan">
+        <p>Filho de Goku, conhecido por seu grande potencial de poder e desejo de proteger seus entes queridos.</p>
+        <h3>Informações do personagem:</h3>
+        <p><strong>Origem:</strong> Meio-Saiyajin, filho de Goku e Chi-Chi, herda grande potencial de luta.<br>
+            <strong>Personalidade:</strong> Pacífico e estudioso, mas luta com coragem quando necessário.<br>
+            <strong>Habilidades:</strong> Poder crescente, desbloqueando habilidades como o Super Saiyajin 2 e a forma Mística.<br>
+            <strong>Transformações:</strong> Evolui para formas poderosas, principalmente durante momentos de grande perigo.<br>
+            <strong>Objetivo:</strong> Proteger sua família e a Terra, embora prefira uma vida tranquila e pacífica.<br>
+            <strong>Rivalidade:</strong> Admiração e desejo de honrar o legado de seu pai, Goku.
+        </p>
+    </div>
+</div>
+
+<div id="modal4" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal4')">&times;</span>
+        <h2>Piccolo</h2>
+        <img src="piccolo.png" alt="Piccolo">
+        <p>Um guerreiro Namekuseijin que evolui de vilão a um dos mais leais aliados de Goku.</p>
+        <h3>Informações do personagem:</h3>
+        <p><strong>Origem:</strong> Namekuseijin criado para vingar seu pai, mas que se redime ao longo da série.<br>
+            <strong>Personalidade:</strong> Sério, estrategista e um mentor para Gohan.<br>
+            <strong>Habilidades:</strong> Mestre em técnicas de combate e regeneração, além de fusões poderosas.<br>
+            <strong>Transformações:</strong> Fica mais forte através de fusões, como a união com Kami.<br>
+            <strong>Objetivo:</strong> Proteger a Terra e seus amigos, lutando pelo bem maior.<br>
+            <strong>Rivalidade:</strong> Inicialmente rival de Goku, mas depois se torna um de seus maiores aliados.
+        </p>
+    </div>
+</div>
+
+<div id="modal5" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal5')">&times;</span>
+        <h2>Trunks</h2>
+        <img src="trunks.png" alt="Trunks">
+        <p>Filho de Vegeta e Bulma, que viaja no tempo para ajudar os Guerreiros Z a combater ameaças poderosas.</p>
+        <h3>Informações do personagem:</h3>
+        <p><strong>Origem:</strong> Filho de Vegeta e Bulma do futuro, treinado para ser um grande guerreiro.<br>
+            <strong>Personalidade:</strong> Determinado, corajoso e focado em mudar o futuro sombrio de sua linha temporal.<br>
+            <strong>Habilidades:</strong> Forte combatente, capaz de se transformar em Super Saiyajin desde jovem.<br>
+            <strong>Transformações:</strong> Super Saiyajin e formas evoluídas, buscando sempre superar suas limitações.<br>
+            <strong>Objetivo:</strong> Mudar o futuro devastado de sua linha temporal e proteger seus entes queridos.<br>
+            <strong>Rivalidade:</strong> Inspiração em Vegeta e Goku, mas sem rivalidades explícitas.
+        </p>
+    </div>
+</div>
+
+<div id="modal6" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal6')">&times;</span>
+        <h2>Frieza</h2>
+        <img src="frieza.png" alt="Frieza">
+        <p>Um dos vilões mais icônicos de Dragon Ball Z, um imperador galáctico com um poder devastador.</p>
+        <h3>Informações do personagem:</h3>
+        <p><strong>Origem:</strong> Imperador galáctico com um império tirânico que busca dominar o universo.<br>
+            <strong>Personalidade:</strong> Cruel, manipulador e sádico, com grande prazer em causar sofrimento.<br>
+            <strong>Habilidades:</strong> Enorme poder de combate, transformações que aumentam sua força exponencialmente.<br>
+            <strong>Transformações:</strong> Capaz de evoluir para formas ainda mais poderosas, como Golden Frieza.<br>
+            <strong>Objetivo:</strong> Dominar e controlar o universo, com uma rivalidade amarga contra Goku e Vegeta.<br>
+            <strong>Rivalidade:</strong> Ódio intenso por Goku, que o derrotou em Namekusei.
+        </p>
+    </div>
+</div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <p>&copy; O anime Dragon Ball Z foi lançado em 26 de abril de 1989 no Japão.</p>
+                <p><a href="#privacy-policy">Dragon Ball Z. Todos os direitos reservados.</a></p>
+                <p><a href="https://www.instagram.com/rafa_rubia7" target="_blank">Rafael <i class="bi bi-instagram"></i></a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
